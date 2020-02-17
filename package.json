@@ -1,18 +1,27 @@
 {
-  "name": "gatsby-starter-netlify-cms",
-  "description": "Example Gatsby, and Netlify CMS project",
-  "version": "1.1.3",
-  "author": "Austin Green",
+  "name": "gatsby-web-template",
+  "description": "Sandeep Chandran website template",
+  "version": "0.1.0",
+  "author": "Sandeep Chandran",
   "dependencies": {
-    "bulma": "^0.8.0",
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "latest",
+    "@material-ui/lab": "^4.0.0-alpha.42",
+    "@material-ui/styles": "latest",
+    "classnames": "^2.2.6",
     "gatsby": "^2.13.31",
+    "gatsby-background-image": "^0.9.17",
     "gatsby-image": "^2.0.23",
+    "gatsby-plugin-layout": "^1.1.22",
+    "gatsby-plugin-manifest": "latest",
+    "gatsby-plugin-material-ui": "latest",
+    "gatsby-plugin-offline": "latest",
     "gatsby-plugin-netlify": "^2.0.6",
     "gatsby-plugin-netlify-cms": "^4.1.6",
-    "gatsby-plugin-purgecss": "^4.0.0",
     "gatsby-plugin-react-helmet": "^3.0.4",
-    "gatsby-plugin-sass": "^2.0.7",
     "gatsby-plugin-sharp": "^2.2.9",
+    "gatsby-plugin-smoothscroll": "^1.0.4",
+    "gatsby-plugin-transition-link": "^1.17.7",
     "gatsby-remark-copy-linked-files": "^2.0.7",
     "gatsby-remark-images": "^3.1.6",
     "gatsby-remark-relative-images": "^0.2.1",
@@ -22,14 +31,13 @@
     "lodash": "^4.17.15",
     "lodash-webpack-plugin": "^0.11.4",
     "netlify-cms-app": "^2.9.6",
-    "netlify-cms-media-library-cloudinary": "^1.3.2",
-    "netlify-cms-media-library-uploadcare": "^0.5.2",
-    "node-sass": "^4.11.0",
     "prop-types": "^15.6.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
-    "uuid": "^3.2.1"
+    "react-icons": "^3.9.0",
+    "react-reveal": "^1.2.2",
+    "react-scrollable-anchor": "^0.6.1"
   },
   "keywords": [
     "gatsby"
@@ -45,6 +53,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.15.3"
+    "prettier": "^1.18.2"
   }
 }
